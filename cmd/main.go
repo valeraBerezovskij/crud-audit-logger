@@ -2,14 +2,14 @@ package main
 
 import (
 	"context"
+	"crud-audit/internal/config"
 	"fmt"
 	"log"
 	"time"
 
-	"github.com/GOLANG-NINJA/crud-audit-log/internal/config"
-	"github.com/GOLANG-NINJA/crud-audit-log/internal/repository"
-	"github.com/GOLANG-NINJA/crud-audit-log/internal/server"
-	"github.com/GOLANG-NINJA/crud-audit-log/internal/service"
+	"crud-audit/internal/repository"
+	"crud-audit/internal/server"
+	"crud-audit/internal/service"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

@@ -1,4 +1,4 @@
-module github.com/GOLANG-NINJA/crud-audit-log
+module crud-audit
 
 go 1.17
 
