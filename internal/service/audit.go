@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	audit "github.com/GOLANG-NINJA/crud-audit-log/pkg/domain"
+	audit "crud-audit/pkg/domain"
 )
 
 type Repository interface {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	audit "github.com/GOLANG-NINJA/crud-audit-log/pkg/domain"
+	audit "crud-audit/pkg/domain"
 	"google.golang.org/grpc"
 )
 
